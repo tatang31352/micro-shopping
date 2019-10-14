@@ -1,4 +1,4 @@
-项目简介\
+<h3>项目简介</h3>\
 作为一个用来学习的小型的电商项目。该项目包括以下微服务： user-srv 用户服务，提供注册、登录、修改密码等操作 product-srv 商品服务，提供商品搜索，商品详情，减少库存等操作 order-srv 订单服务，提供提交订单、查看订单详情等操作
 
 项目版本库地址 https://github.com/xpFelix/micro-shopping
