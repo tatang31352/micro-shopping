@@ -1,12 +1,14 @@
 package main
 
 import (
+	"demo/micro/shopping/user/handler"
 	"demo/micro/shopping/user/model"
 	"demo/micro/shopping/user/repository"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/config"
 	"github.com/micro/go-micro/service/grpc"
 	"log"
+	user "demo/micro/shopping/user/proto/user"
 )
 
 func main() {
@@ -41,12 +43,17 @@ func main() {
 	service.Init()
 
 	//Register Handler
-	user.Regis
+	user.RegisterUserServiceHandler(service.Server(), &handler.User{repo})
 
+	//Register Struct ad Subscriber
+	//micro.RegisterSubscriber("go.micro.srv.user",service.Server(),new(subscriber.Example))
 
+	// Register Function as Subscriber
+	//micro.RegisterSubscriber("go.micro.srv.user", service.Server(), subscriber.Handler)
 
-
-
-
+	//Run service
+	if err := service.Run();err != nil{
+		log.Fatal(err)
+	}
 
 }
