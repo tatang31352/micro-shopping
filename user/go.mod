@@ -13,6 +13,7 @@ require (
 	github.com/jinzhu/gorm v1.9.11
 	github.com/jonboulle/clockwork v0.1.0 // indirect
 	github.com/micro/go-micro v1.11.1-0.20191013174011-b701da6d691d
+	github.com/micro/protobuf v0.0.0-20180321161605-ebd3be6d4fdb // indirect
 	github.com/nats-io/nats-server/v2 v2.1.0 // indirect
 	github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4 // indirect
 	github.com/soheilhy/cmux v0.1.4 // indirect
