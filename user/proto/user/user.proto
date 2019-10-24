@@ -2,36 +2,36 @@ syntax = "proto3";
 
 package go.micro.srv.user;
 
-service UserService{
-    rpc Register (RegisterRequest) returns (Response){}
-    rpc Login (LoginRequest) returns (Response){}
-    rpc UpdatePassword (UpdatePasswordRequest) returns (Response){}
+service User {
+	rpc Call(Request) returns (Response) {}
+	rpc Stream(StreamingRequest) returns (stream StreamingResponse) {}
+	rpc PingPong(stream Ping) returns (stream Pong) {}
 }
 
-message User{
-    uint32 id = 1;
-    string name = 2;
-    string phone = 3;
-    string password = 4;
+message Message {
+	string say = 1;
 }
 
-message RegisterRequest{
-    User user = 1;
+message Request {
+	string name = 1;
 }
 
-message LoginRequest{
-    string phone = 1;
-    string password = 2;
+message Response {
+	string msg = 1;
 }
 
-message UpdatePasswordRequest{
-    uint32 uid = 1;
-    string oldPassword = 2;
-    string newPassword = 3;
-    string confirmPassword = 4;
+message StreamingRequest {
+	int64 count = 1;
 }
 
-message Response{
-    string code = 1;
-    string msg = 2;
+message StreamingResponse {
+	int64 count = 1;
+}
+
+message Ping {
+	int64 stroke = 1;
+}
+
+message Pong {
+	int64 stroke = 1;
 }
