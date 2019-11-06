@@ -13,5 +13,6 @@ require (
 
 replace (
 	github.com/micro/go-micro => github.com/micro/go-micro v1.13.2
+	google.golang.org/grpc => google.golang.org/grpc v1.19.0
 	shopping/product => ../product
 )
