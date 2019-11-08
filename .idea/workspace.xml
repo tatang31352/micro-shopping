@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d061a07-e591-4a4c-b976-616d582d9ab3" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/notification/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/notification/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/order/database.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/order/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/order/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/order/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/product/database.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/product/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/product/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/database.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/user/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/user/vendor/modules.txt" afterDir="false" />
-    </list>
+    <list default="true" id="7d061a07-e591-4a4c-b976-616d582d9ab3" name="默认的" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,14 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notification/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="399">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#14#199#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -104,15 +95,6 @@
               <folding>
                 <element signature="e#14#218#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/database.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -181,7 +163,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="119" />
     <option name="y" value="1" />
     <option name="width" value="1400" />
@@ -213,6 +195,11 @@
               <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopping" type="462c0819:PsiDirectoryNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,7 +305,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
@@ -591,11 +578,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notification/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="399">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#14#199#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
