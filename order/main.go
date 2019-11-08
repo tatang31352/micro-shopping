@@ -1,6 +1,7 @@
 package main
 
 import (
+	conf "github.com/micro/go-config"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/broker"
 	"github.com/micro/go-log"
@@ -19,7 +20,13 @@ import (
 
 func main() {
 
-	db,err := CreateConnection()
+	err := conf.LoadFile("./config.json")
+	if err != nil{
+		log.Fatalf("Could not load config file: %s",err.Error())
+	}
+	conf := conf.Map()
+
+	db,err := CreateConnection(conf["mysql"].(map[string]interface{}))
 	defer db.Close()
 
 	db.AutoMigrate(&model.Order{})
@@ -30,9 +37,11 @@ func main() {
 
 	repo := &repository.Order{db}
 
+	//fmt.Println(conf["rabbitmq_addr"])
+	//fmt.Println(reflect.TypeOf(conf["rabbitmq_addr"]))
 	//broker
 	b := rabbitmq.NewBroker(
-		broker.Addrs("amqp://guest:guest@127.0.0.1:5672"),
+		broker.Addrs(conf["rabbitmq_addr"].(string)),
 	)
 
 	//boot trace

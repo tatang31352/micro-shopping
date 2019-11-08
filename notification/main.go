@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/micro/go-config"
 	"github.com/micro/go-log"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/broker"
@@ -10,8 +11,14 @@ import (
 
 func main() {
 
+	err := config.LoadFile("./config.json")
+	if err != nil{
+		log.Fatalf("Could not load config file: %s",err.Error())
+	}
+	conf := config.Map()
+
 	b := rabbitmq.NewBroker(
-		broker.Addrs("amqp://guest:guest@127.0.0.1:5672"),
+		broker.Addrs(conf["rabbitmq_addr"].(string)),
 	)
 
 	b.Init()

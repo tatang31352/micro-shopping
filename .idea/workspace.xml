@@ -2,554 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d061a07-e591-4a4c-b976-616d582d9ab3" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/order/vendor/OpenCensus/tag/context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/OpenCensus/tag/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/OpenCensus/tag/key.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/OpenCensus/tag/map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/OpenCensus/tag/map_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/broker/rabbitmq/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/broker/rabbitmq/channel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/broker/rabbitmq/connection.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/broker/rabbitmq/context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/broker/rabbitmq/options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/broker/rabbitmq/rabbitmq.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/breaker/gobreaker/gobreaker.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/breaker/gobreaker/gobreaker_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/breaker/hystrix/hystrix.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/breaker/hystrix/hystrix_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/endpoint/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/endpoint/endpoint.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/monitoring/prometheus/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/monitoring/prometheus/prometheus.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/monitoring/prometheus/prometheus_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/ratelimiter/ratelimit/ratelimit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/ratelimiter/ratelimit/ratelimit_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/ratelimiter/uber/uber.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/select/roundrobin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/select/roundrobin/roundrobin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/select/shard/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/select/shard/shard.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/service/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/service/service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/awsxray/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/awsxray/awsxray.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/awsxray/awsxray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/awsxray/options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/awsxray/util.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/datadog/datadog.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/datadog/datadog_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/datadog/ext.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/datadog/helper.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/datadog/stats.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/datadog/status.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/datadog/tracker.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/opencensus/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/opencensus/opencensus.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/opencensus/stats.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/opencensus/status.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/opencensus/tracker.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/opentracing/opentracing.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/opentracing/opentracing_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/DCO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/Gopkg.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/Gopkg.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/RELEASE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/baggage_setter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/baggage_setter_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/config/config_env.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/config/config_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/config/example_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/config/options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/config/options_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/constants_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/context_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/contrib_observer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/client/client_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/client/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/client/trace.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/common/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/common/json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/endtoend/handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/endtoend/handler_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/log/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/rules.mk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/server/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/server/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/server/server_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/server/trace.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/thrift/.nocover" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/thrift/tracetest/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/thrift/tracetest/tracedservice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/crossdock/thrift/tracetest/ttypes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/glide.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/glide.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/header.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/header_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/internal/baggage/remote/options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/internal/baggage/remote/restriction_manager.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/internal/baggage/remote/restriction_manager_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/internal/baggage/restriction_manager.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/internal/baggage/restriction_manager_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/internal/spanlog/json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/internal/throttler/remote/options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/internal/throttler/remote/options_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/internal/throttler/remote/throttler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/internal/throttler/remote/throttler_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/internal/throttler/throttler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/internal/throttler/throttler_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/interop.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/jaeger_tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/jaeger_thrift_span.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/jaeger_thrift_span_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/log/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/log/logger_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/log/zap/field.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/log/zap/field_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/log/zap/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/log/zap/logger_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/logger_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/metrics.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/metrics/prometheus/metrics_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/metrics_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/observer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/observer_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/process.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/propagation.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/propagation_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/reference.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/reporter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/reporter_options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/reporter_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/rpcmetrics/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/rpcmetrics/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/rpcmetrics/endpoints.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/rpcmetrics/endpoints_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/rpcmetrics/metrics.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/rpcmetrics/metrics_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/rpcmetrics/normalizer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/rpcmetrics/normalizer_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/rpcmetrics/observer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/rpcmetrics/observer_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/sampler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/sampler_options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/sampler_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/scripts/cover.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/scripts/updateLicense.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/scripts/updateLicenses.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/span.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/span_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/testutils/mock_agent.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/testutils/mock_agent_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/testutils/sampling_manager.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/testutils/udp_transport.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/testutils/udp_transport_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/agent/agent.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/agent/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/agent/ttypes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/baggage/baggagerestrictionmanager.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/baggage/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/baggage/ttypes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/jaeger/agent.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/jaeger/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/jaeger/ttypes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/sampling/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/sampling/samplingmanager.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/sampling/ttypes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/zipkincore/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/zipkincore/ttypes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift-gen/zipkincore/zipkincollector.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/.nocover" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/application_exception.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/binary_protocol.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/compact_protocol.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/exception.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/memory_buffer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/messagetype.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/numeric.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/processor.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/protocol.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/protocol_exception.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/protocol_factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/rich_transport.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/serializer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/simple_json_protocol.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/transport.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/transport_exception.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/transport_factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/thrift/type.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/tracer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/tracer_options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/tracer_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/transport.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/transport/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/transport/http.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/transport/http_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/transport/zipkin/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/transport/zipkin/example_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/transport/zipkin/http.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/transport/zipkin/http_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/transport_udp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/transport_udp_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/travis/build-crossdock.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/travis/install-crossdock-deps.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/utils/http_json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/utils/http_json_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/utils/localip.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/utils/rand.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/utils/rate_limiter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/utils/rate_limiter_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/utils/udp_client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/utils/utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/utils/utils_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/zipkin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/zipkin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/zipkin/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/zipkin/propagation.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/zipkin/propagation_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/zipkin_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/zipkin_thrift_span.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.16.0+incompatible/zipkin_thrift_span_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/DCO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/Gopkg.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/Gopkg.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/RELEASE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/baggage_setter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/baggage_setter_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/config/config_env.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/config/config_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/config/example_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/config/options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/config/options_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/constants_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/contrib_observer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/client/client_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/client/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/client/trace.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/common/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/common/json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/endtoend/handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/endtoend/handler_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/log/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/rules.mk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/server/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/server/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/server/server_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/server/trace.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/thrift/.nocover" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/thrift/tracetest/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/thrift/tracetest/tracedservice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/crossdock/thrift/tracetest/ttypes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/glide.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/glide.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/header.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/header_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/internal/baggage/remote/options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/internal/baggage/remote/restriction_manager.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/internal/baggage/remote/restriction_manager_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/internal/baggage/restriction_manager.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/internal/baggage/restriction_manager_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/internal/spanlog/json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/internal/throttler/remote/options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/internal/throttler/remote/options_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/internal/throttler/remote/throttler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/internal/throttler/remote/throttler_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/internal/throttler/throttler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/internal/throttler/throttler_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/interop.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/jaeger_tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/jaeger_thrift_span.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/jaeger_thrift_span_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/log/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/log/logger_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/log/zap/field.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/log/zap/field_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/log/zap/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/log/zap/logger_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/logger_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/metrics.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/metrics/prometheus/metrics_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/metrics_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/observer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/observer_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/process.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/propagation.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/propagation_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/reference.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/reporter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/reporter_options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/reporter_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/rpcmetrics/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/rpcmetrics/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/rpcmetrics/endpoints.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/rpcmetrics/endpoints_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/rpcmetrics/metrics.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/rpcmetrics/metrics_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/rpcmetrics/normalizer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/rpcmetrics/normalizer_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/rpcmetrics/observer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/rpcmetrics/observer_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/sampler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/sampler_remote.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/sampler_remote_options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/sampler_remote_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/sampler_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/sampler_v2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/sampler_v2_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/scripts/bench.Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/scripts/updateLicense.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/scripts/updateLicenses.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/span.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/span_allocator.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/span_allocator_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/span_context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/span_context_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/span_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/testutils/mock_agent.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/testutils/mock_agent_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/testutils/sampling_manager.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/testutils/udp_transport.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/testutils/udp_transport_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/agent/agent.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/agent/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/agent/ttypes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/baggage/baggagerestrictionmanager.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/baggage/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/baggage/ttypes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/jaeger/agent.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/jaeger/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/jaeger/ttypes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/sampling/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/sampling/samplingmanager.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/sampling/ttypes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/zipkincore/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/zipkincore/ttypes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift-gen/zipkincore/zipkincollector.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/.nocover" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/application_exception.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/binary_protocol.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/compact_protocol.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/exception.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/memory_buffer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/messagetype.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/numeric.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/processor.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/protocol.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/protocol_exception.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/protocol_factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/rich_transport.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/serializer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/simple_json_protocol.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/transport.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/transport_exception.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/transport_factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/thrift/type.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/tracer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/tracer_bench_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/tracer_options.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/tracer_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/transport.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/transport/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/transport/http.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/transport/http_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/transport/zipkin/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/transport/zipkin/example_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/transport/zipkin/http.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/transport/zipkin/http_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/transport_udp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/transport_udp_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/travis/build-crossdock.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/travis/install-crossdock-deps.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/utils/http_json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/utils/http_json_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/utils/localip.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/utils/rand.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/utils/rate_limiter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/utils/rate_limiter_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/utils/udp_client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/utils/utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/utils/utils_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/x/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/x/priority_sampler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/x/priority_sampler_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/x/sampler_custom_updater_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/x/tag_sampler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/x/tag_sampler_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/zipkin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/zipkin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/zipkin/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/zipkin/propagation.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/zipkin/propagation_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/zipkin_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/zipkin_thrift_span.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-client-go@v2.20.0+incompatible/zipkin_thrift_span_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/DCO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/Gopkg.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/Gopkg.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/client/log/go-kit/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/client/log/go-kit/logger_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/glide.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/glide.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/adapters/cache.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/adapters/cache_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/adapters/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/adapters/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/adapters/tagless.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/counter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/expvar/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/expvar/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/gauge.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/go-kit/expvar/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/go-kit/expvar/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/go-kit/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/go-kit/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/go-kit/influx/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/go-kit/influx/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/go-kit/metrics.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/go-kit/metrics_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/histogram.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/keys.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/metrics.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/metrics_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/metricstest/local.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/metricstest/local_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/metricstest/metricstest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/metricstest/metricstest_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/multi/multi.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/multi/multi_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/prometheus/cache.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/prometheus/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/prometheus/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/stopwatch.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/tally/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/tally/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/tally/metrics.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/metrics/timer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/sample/sample.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/sample/sample_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/scripts/cover.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/scripts/updateLicense.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/scripts/updateLicenses.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/utils/rate_limiter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/utils/rate_limiter_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/DCO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/Gopkg.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/Gopkg.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/RELEASE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/client/log/go-kit/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/client/log/go-kit/logger_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/glide.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/glide.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/adapters/cache.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/adapters/cache_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/adapters/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/adapters/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/adapters/tagless.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/counter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/expvar/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/expvar/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/gauge.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/go-kit/expvar/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/go-kit/expvar/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/go-kit/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/go-kit/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/go-kit/influx/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/go-kit/influx/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/go-kit/metrics.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/go-kit/metrics_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/histogram.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/keys.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/metrics.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/metrics_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/metricstest/local.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/metricstest/local_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/metricstest/metricstest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/metricstest/metricstest_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/multi/multi.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/multi/multi_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/prometheus/cache.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/prometheus/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/prometheus/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/stopwatch.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/tally/factory.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/tally/factory_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/tally/metrics.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/metrics/timer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/sample/sample.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/sample/sample_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/scripts/updateLicense.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/scripts/updateLicenses.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/utils/rate_limiter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.2.0+incompatible/utils/rate_limiter_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/notification/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/order/database.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/order/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/order/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/order/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/product/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/product/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/product/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/user/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/user/vendor/modules.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -560,48 +29,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/go.mod">
+        <entry file="file://$PROJECT_DIR$/order/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="418">
+              <caret line="43" column="40" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="40" />
+              <folding>
+                <element signature="e#14#637#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notification/config.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/database.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#14#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/order/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#14#628#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/handler/order.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="e#17#299#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/model/order.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notification/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="55" />
+            <state relative-caret-position="418">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="e#14#199#0" expanded="true" />
               </folding>
@@ -610,48 +79,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/repository/order.go">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/user/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="37" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/awsxray/util.go">
+        <entry file="file://$PROJECT_DIR$/product/go.mod">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#17#184#0" expanded="true" />
+                <element signature="e#14#218#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/vendor/OpenCensus/exporter/zipkin/zipkin.go">
+        <entry file="file://$PROJECT_DIR$/product/database.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="33" column="6" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="6" />
-              <folding>
-                <element signature="e#715#867#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notification/go.mod">
+        <entry file="file://$PROJECT_DIR$/user/database.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notification/subscriber/notification.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="76">
+              <caret line="8" selection-start-line="8" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -692,9 +162,16 @@
         <option value="$PROJECT_DIR$/product/go.mod" />
         <option value="$PROJECT_DIR$/notification/subscriber/notification.go" />
         <option value="$PROJECT_DIR$/notification/go.mod" />
-        <option value="$PROJECT_DIR$/notification/main.go" />
         <option value="$PROJECT_DIR$/order/go.mod" />
+        <option value="$PROJECT_DIR$/user/config.json" />
+        <option value="$PROJECT_DIR$/user/database.go" />
+        <option value="$PROJECT_DIR$/product/database.go" />
+        <option value="$PROJECT_DIR$/user/main.go" />
+        <option value="$PROJECT_DIR$/product/main.go" />
+        <option value="$PROJECT_DIR$/order/database.go" />
+        <option value="$PROJECT_DIR$/order/config.json" />
         <option value="$PROJECT_DIR$/order/main.go" />
+        <option value="$PROJECT_DIR$/notification/main.go" />
       </list>
     </option>
   </component>
@@ -704,7 +181,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="119" />
     <option name="y" value="1" />
     <option name="width" value="1400" />
@@ -719,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -734,26 +212,12 @@
             <path>
               <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="notification" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="notification" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -779,11 +243,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GOPATH\src\shopping\notification" />
+      <recent name="G:\GOPATH\src\shopping\order" />
+      <recent name="G:\GOPATH\src\shopping\product" />
       <recent name="C:\Users\Mloong\go\src\shopping\order\vendor\github.com\micro\go-plugins" />
       <recent name="C:\Users\Mloong\go\src\shopping\order\vendor\github.com\micro" />
-      <recent name="C:\Users\Mloong\go\src\shopping\order\vendor\github.com" />
-      <recent name="C:\Users\Mloong\go\src\shopping\order\vendor" />
-      <recent name="C:\Users\Mloong\go\src\shopping\notification\proto\notification" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -855,8 +319,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -871,7 +336,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4968017" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4968017" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5021322" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="调试" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -924,7 +389,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/notification/main.go</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
@@ -932,22 +397,18 @@
           <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/user/main.go</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/notification/handler/notification.go" />
     <entry file="file://$PROJECT_DIR$/order/vendor/OpenCensus/tag/doc.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/go.mod">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/main.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/user/go.mod">
@@ -993,36 +454,16 @@
     <entry file="file://$PROJECT_DIR$/order/vendor/github.com/uber/jaeger-lib@v2.0.0+incompatible/DCO">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/vendor/OpenCensus/exporter/zipkin/zipkin.go">
+    <entry file="file://$PROJECT_DIR$/order/go.mod">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="6" />
-          <folding>
-            <element signature="e#715#867#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification/subscriber/notification.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/awsxray/util.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#17#184#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order/handler/order.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="38">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="e#17#299#0" expanded="true" />
@@ -1036,6 +477,26 @@
     <entry file="file://$PROJECT_DIR$/order/repository/order.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/order/vendor/github.com/micro/go-plugins/wrapper/trace/awsxray/util.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#17#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/vendor/OpenCensus/exporter/zipkin/zipkin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="6" />
+          <folding>
+            <element signature="e#715#867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/notification/go.mod">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1043,29 +504,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/go.mod">
+    <entry file="file://$PROJECT_DIR$/notification/subscriber/notification.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="95">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/database.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#14#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/database.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" selection-start-line="8" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/database.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#14#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notification/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="43" column="40" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="40" />
+          <folding>
+            <element signature="e#14#637#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notification/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="55" />
+        <state relative-caret-position="418">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
             <element signature="e#14#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#14#628#0" expanded="true" />
           </folding>
         </state>
       </provider>

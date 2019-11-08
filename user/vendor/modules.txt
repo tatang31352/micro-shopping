@@ -1,5 +1,9 @@
+# github.com/BurntSushi/toml v0.3.1
+github.com/BurntSushi/toml
 # github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da
 github.com/armon/go-metrics
+# github.com/bitly/go-simplejson v0.5.0
+github.com/bitly/go-simplejson
 # github.com/cheekybits/genny v1.0.0
 github.com/cheekybits/genny/generic
 # github.com/coreos/etcd v3.3.17+incompatible
@@ -22,6 +26,10 @@ github.com/coreos/etcd/raft/raftpb
 github.com/coreos/go-systemd/journal
 # github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f
 github.com/coreos/pkg/capnslog
+# github.com/fsnotify/fsnotify v1.4.7
+github.com/fsnotify/fsnotify
+# github.com/ghodss/yaml v1.0.0
+github.com/ghodss/yaml
 # github.com/go-log/log v0.1.0
 github.com/go-log/log
 github.com/go-log/log/log
@@ -53,8 +61,20 @@ github.com/hashicorp/go-immutable-radix
 github.com/hashicorp/go-rootcerts
 # github.com/hashicorp/golang-lru v0.5.3
 github.com/hashicorp/golang-lru/simplelru
+# github.com/hashicorp/hcl v1.0.0
+github.com/hashicorp/hcl
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/parser
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/json/parser
+github.com/hashicorp/hcl/json/scanner
+github.com/hashicorp/hcl/json/token
 # github.com/hashicorp/serf v0.8.2
 github.com/hashicorp/serf/coordinate
+# github.com/imdario/mergo v0.3.8
+github.com/imdario/mergo
 # github.com/jinzhu/gorm v1.9.11
 github.com/jinzhu/gorm
 github.com/jinzhu/gorm/dialects/mysql
@@ -101,7 +121,20 @@ github.com/micro/go-micro/codec/json
 github.com/micro/go-micro/codec/jsonrpc
 github.com/micro/go-micro/codec/proto
 github.com/micro/go-micro/codec/protorpc
+github.com/micro/go-micro/config
 github.com/micro/go-micro/config/cmd
+github.com/micro/go-micro/config/encoder
+github.com/micro/go-micro/config/encoder/hcl
+github.com/micro/go-micro/config/encoder/json
+github.com/micro/go-micro/config/encoder/toml
+github.com/micro/go-micro/config/encoder/xml
+github.com/micro/go-micro/config/encoder/yaml
+github.com/micro/go-micro/config/loader
+github.com/micro/go-micro/config/loader/memory
+github.com/micro/go-micro/config/reader
+github.com/micro/go-micro/config/reader/json
+github.com/micro/go-micro/config/source
+github.com/micro/go-micro/config/source/file
 github.com/micro/go-micro/debug/handler
 github.com/micro/go-micro/debug/proto
 github.com/micro/go-micro/errors
@@ -240,3 +273,5 @@ google.golang.org/grpc/resolver/passthrough
 google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
+# gopkg.in/yaml.v2 v2.2.2
+gopkg.in/yaml.v2

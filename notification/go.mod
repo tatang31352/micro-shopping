@@ -4,6 +4,7 @@ go 1.13
 
 require (
 	github.com/golang/protobuf v1.3.2
+	github.com/micro/go-config v1.1.0
 	github.com/micro/go-log v0.1.0
 	github.com/micro/go-micro v1.14.0
 	github.com/micro/go-plugins v1.1.0

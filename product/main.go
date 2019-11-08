@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/micro/go-micro/config"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/util/log"
 	"shopping/product/handler"
@@ -11,7 +12,13 @@ import (
 
 func main() {
 
-	db,err := CreateConnection()
+	err := config.LoadFile("./config.json")
+	if err != nil{
+		log.Fatalf("Could not load config file: %s",err.Error())
+	}
+	conf := config.Map()
+
+	db,err := CreateConnection(conf["mysql"].(map[string]interface{}))
 	defer db.Close()
 
 	db.AutoMigrate(&model.Product{})

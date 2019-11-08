@@ -11,6 +11,7 @@ require (
 	github.com/jinzhu/gorm v1.9.11
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.1 // indirect
+	github.com/micro/go-config v1.1.0
 	github.com/micro/go-grpc v1.0.1 // indirect
 	github.com/micro/go-log v0.1.0
 	github.com/micro/go-micro v1.14.0
