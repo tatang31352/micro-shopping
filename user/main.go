@@ -4,6 +4,7 @@ import (
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/config"
 	"github.com/micro/go-micro/util/log"
+	"github.com/micro/go-plugins/registry/etcdv3"
 	"shopping/user/handler"
 	"shopping/user/model"
 	user "shopping/user/proto/user"
@@ -29,8 +30,11 @@ func main() {
 	}
 
 	repo := &repository.User{db}
+
+	registre := etcdv3.NewRegistry()
 	// New Service
 	service := micro.NewService(
+		micro.Registry(registre),
 		micro.Name("go.micro.srv.user"),
 		micro.Version("latest"),
 	)
